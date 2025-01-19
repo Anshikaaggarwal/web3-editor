@@ -17,14 +17,6 @@ import Footer from '@/components/Footer';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "ghost" | "solid" | "outline";
-export default function Home() {
-  return (
-    <div>
-       <Example />
-
-    </div>
-   
-  );
 }
 
 const Button: React.FC<ButtonProps> = ({ variant = "solid", children, className, ...props }) => {
